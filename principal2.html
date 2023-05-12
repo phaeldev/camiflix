@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camiflix</title>
+    <link rel="stylesheet" href="assistir.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #212121;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            text-decoration: none;
+        }
+        .back-button img {
+            height: 50px;
+        }
+        p {
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            line-height: 36px;
+            margin: 60px auto;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            width: 437px;
+            height: 776px;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .options img {
+            width: 150px;
+            margin: 0 10px;
+            cursor: pointer; /* Adiciona o cursor de mão para indicar que a imagem é clicável */
+        }
+
+        .options img:hover {
+    transform: scale(1.1);
+}
+    </style>
+</head> 
+<body>
+    <header>
+        <h1>Qualquer pesquisa resultará em muito amor, veja estas opções:</h1>
+    </header>
+    <div class="options">
+        <a href="assistir.html"><img src="imagens/nos.png" alt=""></a>
+        <a href="assistir1.html"><img src="imagens/um.png" alt=""></a>
+        <a href="assistir2.html"><img src="imagens/dois.png" alt=""></a>
+        <a href="assistir3.html"><img src="imagens/quatro.png" alt=""></a>
+        <a href="assistir4.html"><img src="imagens/cinco.png" alt=""></a>
+    </div>
+    <a href="#" class="back-button" onclick="window.history.back(); return false;">
+        <img src="imagens/logo.png" alt="Voltar">
+    </a>
+</body>
+</html>
